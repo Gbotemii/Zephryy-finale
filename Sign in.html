@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d162f0f347.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href="sign in.css" />
+    <link 
+          rel="Shortcut Icon" 
+          type="image/png"
+          href="./Images/favveey.png"
+      >
+  </head>
+  <body>
+    <div class="form">
+      <h2>Create Account</h2>
+
+      <form action="create-account">
+        <div class="form-element">
+          <label for="fname"> Full Name</label>
+          <input type="text" id="fnmae" placeholder="Full Name" />
+        </div>
+
+        <div class="form-element">
+          <label for="fname"> Business Email Name</label>
+          <input type="email" id="email" placeholder="Business Email Address" />
+        </div>
+
+        <div class="form-element pass-container">
+          <label for="fname"> Enter Password </label>
+          <input
+            type="password"
+            autocomplete="current-password"
+            required=""
+            id="id_password"
+            placeholder="Password"
+          />
+          <i class="far fa-eye" id="togglePassword"></i>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <p>
+        By clicking submit, I agree to Zephyr’s Terms & conditions and Privacy
+        Policy.
+      </p>
+
+      <div class="line-text">
+        <hr class="phase1" />
+        <p>Or sign up with</p>
+        <hr class="phase2" />
+      </div>
+
+      <div class="gogle">
+        <img src="./Images/Google.png" alt="goole image" />
+
+        <p>Already have an account? <a href="#">log in</a></p>
+      </div>
+    </div>
+    <script src="sign in.js"></script>
+  </body>
+</html>
